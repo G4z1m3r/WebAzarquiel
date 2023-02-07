@@ -1,0 +1,42 @@
+<script>
+
+</script>
+
+<main>
+  <header class="bg-gr text-white">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 bg-gr"><i class="fa-brands fa-facebook"></i></a></li>
+          <li><a href="#" class="nav-link px-2 bg-gr"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="#" class="nav-link px-2 bg-gr"><i class="fa-brands fa-youtube"></i></a></li>
+          <li><a href="#" class="nav-link px-2 bg-gr"><i class="fa-solid fa-ellipsis"></i></a></li>
+          <li><a href="#" class="nav-link px-2 bg-gr"><i class="fa-solid fa-ellipsis"></i></a></li>
+          <li><a href="#" class="nav-link px-2 bg-gr"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+
+        <div class="text-end">
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 bg-gb"><i class="fa-solid fa-phone bg-gr"></i> 925284043</a></li>
+            <li><a href="#" class="nav-link px-2 bg-gb"><i class="fa-regular fa-envelope bg-gr"></i> 45003875.ies@edu.jccm.es</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+</main>
+
+<style>
+  .bg-gr{
+    background-color: #f5f5f5;
+    color: #999999;
+  }
+  .bg-gb{
+    background-color: #f5f5f5;
+    color: #009cde;
+  }
+</style>
