@@ -6,7 +6,7 @@
 </script>
 
 <main>
-  <div class="container-Intro d-flex justify-content-center" >
+  <div class="container-Intro d-flex justify-content-center pt-5" >
     <Title 
       titulo="{titulo}"
     />
