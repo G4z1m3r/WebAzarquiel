@@ -3,7 +3,7 @@
 </script>
 
 <main>
-  <div class="d-flex justify-content-center align-items-center pb-1">
+  <div class="d-flex justify-content-center align-items-center">
     <h1>{titulo}</h1>
   </div>
 </main>

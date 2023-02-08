@@ -6,26 +6,33 @@
 </script>
 
 <MainTemplate>
-  <Intro titulo="Cursos de especialización" />
+  <div class="pb-5">
+    <Intro titulo="Cursos de especialización" />
+  </div>
+
   <!-- <div class="d-flex justify-content-center align-items-space-evenly "> -->
     <div class="cartas d-flex pb-5" style="width: 100%">
       <!-- <div class="container-fluid"> -->
         <div class=" col-sm-6 col d-flex justify-content-center align-items-center cartilla">
-          <Card
+          <a href="/videojuegos">
+            <Card
             sourc="../../img/videojuegos.jpg"
             alternative="Imagen promocional videojuedos"
             titulo="Curso de videojuegos"
             texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum ante vel dignissim hendrerit. "
           />
+          </a>
         </div>
   
         <div class=" col-sm-6 col d-flex justify-content-center align-items-center cartilla">
-          <Card
+          <a href="/ciberseguridad">
+            <Card
             sourc="../../img/ciberseguridad.jpg"
             alternative="Imagen promocional ciberseguridad"
             titulo="Curso de Ciberseguridad"
             texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum ante vel dignissim hendrerit. "
           />
+          </a>
         </div>
       <!-- </div> -->
       
@@ -34,11 +41,6 @@
 </MainTemplate>
 
 <style lang="sass">
- 
-  $d: 700ms
-  $e: cubic-bezier(0.19, 1, 0.22, 1)
-  $bp-md: 600px
-  $bp-lg: 800px
 
   .d-flex 
     display: flex
@@ -47,7 +49,16 @@
   .cartas
     display: flex
     flex-wrap: wrap
+    justify-content: center
+    align-items: center
     // column-gap: 2rem
+
+  .cartilla
+    width: 30%
+
+  a
+    text-decoration: none
+    color: black
     
 
 </style>

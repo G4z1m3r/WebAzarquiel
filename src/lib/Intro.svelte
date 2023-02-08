@@ -6,13 +6,14 @@
 </script>
 
 <main>
-  <div class="container-Intro">
+  <div class="container-Intro d-flex justify-content-center" >
     <Title 
       titulo="{titulo}"
     />
-    <Subtitle 
-      contenido="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elementum ante vel dignissim hendrerit. Aliquam a quam ut dolor dapibus aliquam in in orci. Phasellus blandit risus accumsan"
-    />
+    <!-- <Subtitle 
+      contenido=""
+    /> -->
+    
   </div>
 </main>
 
