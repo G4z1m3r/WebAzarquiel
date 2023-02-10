@@ -6,7 +6,7 @@
 </script>
 
 <main>
-  <div class="card d-flex justify-content-center align-items-center ms-5 me-5">
+  <div class="card d-flex justify-content-center align-items-center ms-5 me-5 cartas">
     <img class="card-img-top rounded" src={sourc} alt={alternative}>
     <div class="card-body">
       <h5 class="card-title">{titulo}</h5>
@@ -44,5 +44,12 @@
   .card-img-top
     height: 35vh
     max-width: 100%
+
+  @media (max-width: 600px)
+    .cartas
+      flex-direction: column
+      width: 100vw
+      margin: 0
+      padding: 0
   
 </style>

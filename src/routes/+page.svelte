@@ -60,5 +60,11 @@
     text-decoration: none
     color: black
     
+  @media (max-width: 600px)
+    .cartas
+      flex-direction: column
+      margin: 0
+      padding: 0
+      row-gap: 2rem
 
 </style>

@@ -9,15 +9,15 @@
     <div class="container-fluid">
       <div class="centrar-titulo">
         <Intro
-          titulo="Curso de especialización en Ciberseguridad en entornos ..."
+          titulo="Curso de especialización en desarrollo de videjuegos y realidad virtual"
           bgi="../../img/videojuegos.jpg"
         />
       </div>
 
       <div class="prueba ms-5 me-5">
-        <div class="row pb-5 me-5 ms-5">
+        <div class="row prueba2">
           <div
-            class="col-6 d-flex justify-content-center align-items-center flex-column"
+            class="col-sm-12 col-6 d-flex justify-content-center align-items-center flex-column"
           >
             <h5>
               Nuestro centro tiene actualmente varios pabellones: en los cuales
@@ -47,7 +47,7 @@
               instalado pizarras digitales en las aulas de primero de ESO.
             </h5>
           </div>
-          <div class="col-6 d-flex justify-content-center align-items-center">
+          <div class="col-6 d-flex justify-content-center align-items-center logo">
             <img
               class="big"
               src="../../img/logoiesa.png"
@@ -55,11 +55,7 @@
             />
           </div>
         </div>
-
-        <div class="ct me-5 ms-5 pb-5">
           <Table />
-        </div>
-
         <div class="row">
           <div
             class="d-flex justify-content-center align-items-start flex-column ps-5 pe-5 me-5 ms-5"
@@ -96,7 +92,7 @@
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapse1"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapse1"
                 >
                   ¿QUIÉN PUEDE ACCEDER A ESTAS ENSEÑANZAS?
@@ -104,7 +100,7 @@
               </h2>
               <div
                 id="collapse1"
-                class="accordion-collapse collapse show"
+                class="accordion-collapse collapse"
                 aria-labelledby="heading1"
                 data-bs-parent="#accordion1"
               >
@@ -155,7 +151,7 @@
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapse2"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapse2"
                 >
                   ¿PARA QUÉ SIRVE EN EL MUNDO LABORAL?
@@ -163,7 +159,7 @@
               </h2>
               <div
                 id="collapse2"
-                class="accordion-collapse collapse show"
+                class="accordion-collapse collapse"
                 aria-labelledby="heading2"
                 data-bs-parent="#accordion2"
               >
@@ -215,6 +211,24 @@
 
   .btn-pr
     width: 100%
+
+  .logo
+    display: flex
+    justify-content: center
+    align-items: center
+    max-width: 100vw
+  
+  @media (max-width: 600px)
+    .prueba
+      max-width: 100vw
+    .prueba2
+      max-width: 100vw
+      padding: 0
+      margin: 0
+      display: flex
+      flex-direction: column
+    .logo
+      diplay: none
 
 
 </style>

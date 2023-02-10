@@ -12,7 +12,7 @@
       <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
         <img class="img-fluid" src="../../img/logoiesfseif (1).png" alt="logo azarquiel">
       </a>
-      <ul class="nav col-14 justify-content-center mb-md-0 d-sm-none d-md-flex">
+      <ul class="nav col-14 justify-content-center mb-md-0 d-sm-none d-md-flex prueba">
         <li><a href="#" class="nav-link px-2 link-secondary">INICIO</a></li>
         <li><a href="#" class="nav-link px-2 link-dark">AL DÍA</a></li>
         <li><a href="#" class="nav-link px-2 link-dark">EL LORO</a></li>
@@ -20,12 +20,44 @@
         <li><a href="#" class="nav-link px-2 link-dark">SECRETARÍA</a></li>
         <li><a href="#" class="nav-link px-2 link-dark">FAMILIAS</a></li>
         <li><a href="#" class="nav-link px-2 link-dark">BOLSA</a></li>
-        <li><a href="#" class="nav-link px-2 link-dark offcanvas offcanvas-end" data-bs-toggle="offcanvas" data-bs-target="#prueba"><i class="fa-solid fa-bars"></i></a></li>
       </ul>
+
+      <button type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" class="prueba2">
+        <i class="fa-solid fa-bars fa-2x"></i>
+      </button>
+
+      <div class="offcanvas offcanvas-start text-bg-dark" id="demo">
+        <div class="offcanvas-header">
+          <h1 class="offcanvas-title">Heading</h1>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>Some text lorem ipsum.</p>
+          <p>Some text lorem ipsum.</p>
+          <p>Some text lorem ipsum.</p>
+          <button class="btn btn-secondary" type="button">A Button</button>
+        </div>
+      </div>
+
     </header>
   </div>
 </main>
 
 <style lang="sass">
+
+  .prueba2
+    display: none
+    background-color: transparent
+    border: none
+    color: inherit
+    padding: 0
+    font: inherit
+    cursor: pointer
+
+  @media (max-width: 600px)
+    .prueba
+      display: none
+    .prueba2
+      display: flex
  
 </style>
