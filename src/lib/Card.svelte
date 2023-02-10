@@ -6,7 +6,7 @@
 </script>
 
 <main>
-  <div class="card d-flex justify-content-center align-items-center ms-5 me-5 cartas">
+  <div class="card d-flex justify-content-center align-items-center cartas">
     <img class="card-img-top rounded" src={sourc} alt={alternative}>
     <div class="card-body">
       <h5 class="card-title">{titulo}</h5>
@@ -30,6 +30,9 @@
   main
     width: 100%
 
+  .cartas
+    margin: 0 5rem
+
   .card
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2)
     column-gap: 5rem
@@ -51,5 +54,8 @@
       width: 100vw
       margin: 0
       padding: 0
+    .card:hover
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2)
+      cursor: pointer
   
 </style>
