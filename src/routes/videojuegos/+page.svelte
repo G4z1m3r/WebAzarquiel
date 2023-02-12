@@ -15,7 +15,7 @@
       </div>
 
       <div class="prueba ms-5 me-5">
-        <div class="row prueba2">
+        <div class="row d-flex justify-content-center align-items-center flex-row">
           <div
             class="col-sm-12 col-6 d-flex justify-content-center align-items-center flex-column"
           >
@@ -208,6 +208,11 @@
   
   .prueba
     color: black
+
+  .prueba2
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
 
   .btn-pr
     width: 100%
