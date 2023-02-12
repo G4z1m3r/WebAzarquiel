@@ -7,7 +7,7 @@
     <table class="table table-dark prueba">
       <thead>
         <tr>
-          <th colspan="3" scope="col" class="text-center"> Familia Profesional: Informatica y comunicaciones <br/> Nivel:               Curso de Especialización. <br /> Titulo:              Desarrollo de Videojuegos y Realidad virtual</th>
+          <th colspan="3" scope="col" class="text-center"> Familia Profesional: Informatica y comunicaciones <br/> Nivel:               Curso de Especialización. <br /> Titulo:              Ciberseguridad en entornos IT</th>
         </tr>
         <tr class="table-primary text-center">
           <th scope="col">Módulos Profesionales</th>
@@ -17,27 +17,27 @@
       </thead>
       <tbody class="text-center">
         <tr>
-          <th scope="row">5048. Programación y motores de videojuegos.</th>
+          <th scope="row">5048. Asignatura1.</th>
           <td>160</td>
           <td>5</td>
         </tr>
         <tr>
-          <th scope="row">5049. Diseño gráfico 2D y 3D</th>
+          <th scope="row">5049. Asignatura2</th>
           <td>125</td>
           <td>4</td>
         </tr>
         <tr>
-          <th scope="row">5050. Programación en red e inteligencia artificial</th>
+          <th scope="row">5050. Asignatura3</th>
           <td>95</td>
           <td>3</td>
         </tr>
         <tr>
-          <th scope="row">5051. Realidad virtual y realidad aumentada</th>
+          <th scope="row">5051. Asignatura4</th>
           <td>95</td>
           <td>3</td>
         </tr>
         <tr>
-          <th scope="row">5052. Diseño, Gestión, publicación y producción</th>
+          <th scope="row">5052. Asignatura5</th>
           <td>125</td>
           <td>4</td>
         </tr>

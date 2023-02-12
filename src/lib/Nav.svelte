@@ -28,14 +28,19 @@
 
       <div class="offcanvas offcanvas-start text-bg-dark" id="demo">
         <div class="offcanvas-header">
-          <h1 class="offcanvas-title">Heading</h1>
+          <h1 class="offcanvas-title">MENU</h1>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
         </div>
         <div class="offcanvas-body">
-          <p>Some text lorem ipsum.</p>
-          <p>Some text lorem ipsum.</p>
-          <p>Some text lorem ipsum.</p>
-          <button class="btn btn-secondary" type="button">A Button</button>
+          <ul>
+            <li><a href="#" class="linknone">INICIO</a></li>
+            <li><a href="#" class="linknone">AL DÍA</a></li>
+            <li><a href="#" class="linknone">EL LORO</a></li>
+            <li><a href="#" class="linknone">EL CENTRO</a></li>
+            <li><a href="#" class="linknone">SECRETARÍA</a></li>
+            <li><a href="#" class="linknone">FAMILIAS</a></li>
+            <li><a href="#" class="linknone">BOLSA</a></li>
+          </ul>
         </div>
       </div>
 
@@ -53,6 +58,10 @@
     padding: 0
     font: inherit
     cursor: pointer
+
+  .linknone
+    color: inherit
+    text-decoration: inherit
 
   @media (max-width: 600px)
     .prueba

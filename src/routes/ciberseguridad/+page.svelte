@@ -1,6 +1,6 @@
 <script>
   import Intro from "../../lib/Intro.svelte";
-  import Table from "../../lib/Table.svelte";
+  import Table2 from "../../lib/Table2.svelte";
   import MainTemplate from "../../templates/MainTemplate.svelte";
 </script>
 
@@ -9,7 +9,7 @@
     <div class="container-fluid">
       <div class="centrar-titulo">
         <Intro
-          titulo="Curso de especialización en desarrollo de videjuegos y realidad virtual"
+          titulo="Curso de especialización en ciberseguridad en entonrnos it."
           bgi="../../img/videojuegos.jpg"
         />
       </div>
@@ -55,7 +55,7 @@
             />
           </div>
         </div>
-          <Table />
+          <Table2 />
         <div class="row">
           <div
             class="d-flex justify-content-center align-items-start flex-column ps-5 pe-5 me-5 ms-5"
