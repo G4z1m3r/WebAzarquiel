@@ -1,7 +1,7 @@
 <script>
   import Intro from "../../lib/Intro.svelte";
   import Table2 from "../../lib/Table2.svelte";
-  import MainTemplate from "../../templates/MainTemplate.svelte";
+  import MainTemplate from "../../templates/+layout.svelte";
 </script>
 
 <main>

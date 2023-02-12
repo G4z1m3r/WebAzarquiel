@@ -1,8 +1,8 @@
 <script>
   import Card from "../lib/Card.svelte";
   import Intro from "../lib/Intro.svelte";
-  import MainTemplate from "../templates/MainTemplate.svelte";
-  import Layout from "../templates/MainTemplate.svelte";
+  import MainTemplate from "../templates/+layout.svelte";
+  import Layout from "../templates/+layout.svelte";
 </script>
 
 
